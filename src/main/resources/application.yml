@@ -1,0 +1,3 @@
+credit-limit:
+  upper-limit: 10000
+  lower-limit: 1001
