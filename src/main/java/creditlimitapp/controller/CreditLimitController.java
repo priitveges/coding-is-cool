@@ -25,7 +25,7 @@ import org.springframework.web.bind.annotation.ResponseStatus;
 @RequiredArgsConstructor
 @RequestMapping(value = "/credit-score", produces = APPLICATION_JSON_VALUE)
 public class CreditLimitController {
-  // Swagger opens at http://localhost:8080/swagger-ui/index.html#
+
   private final CreditLimitService service;
 
   @ResponseStatus(OK)
